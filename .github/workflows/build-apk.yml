@@ -8,6 +8,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: Zappio
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -30,5 +33,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: Zappio-debug-apk
-          path: app/build/outputs/apk/debug/*.apk
+          path: Zappio/app/build/outputs/apk/debug/*.apk
           if-no-files-found: error
