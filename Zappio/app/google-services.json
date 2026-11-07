@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "812919757674",
+    "firebase_url": "https://zappio-messenger-default-rtdb.firebaseio.com",
+    "project_id": "zappio-messenger",
+    "storage_bucket": "zappio-messenger.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812919757674:android:b283795177fc4f8a896313",
+        "android_client_info": {
+          "package_name": "app.zappio.messenger"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxPccUmSTBek7bin9JK2kkjihv2YkomFQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
